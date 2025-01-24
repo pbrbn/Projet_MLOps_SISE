@@ -13,6 +13,7 @@ The system is designed using:
 
 ## Project Structure  
 
+```plaintext
 project-root/
 │
 ├── client/
@@ -28,6 +29,7 @@ project-root/
 │   ├── requirements.txt     # Python dependencies for the server
 │
 ├── docker-compose.yml       # Docker Compose configuration for multi-container setup
+```
 
 ## How it works 
 
@@ -60,10 +62,12 @@ Ensure that you have the following installed on your system:
    ```bash  
    git clone <repository-url>  
    cd project-root/
+   ```
 
 2. **Build and start containers**
    ```bash
    docker-compose up --build
+   ```
 
 3. **Access the application**
 - Open the client application in your browser: http://localhost:8501
@@ -107,10 +111,12 @@ Ensure that you have the following installed on your system:
 - Rebuilding Containers :
   ```bash
   docker-compose build
+  ```
 
 - Shutting Down :
   ```bash
   docker-compose down
+  ```
 
 ## Author : 
 
